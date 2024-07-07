@@ -6,7 +6,7 @@
 
 //////////////////////////////////////////////////////////////////////////////////
 
-//Top module for the all transmitter modules
+//Top module for the transmitter
 
 module transmitter(
 input wire clk,
