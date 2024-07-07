@@ -68,6 +68,6 @@ UART Full duplex configuaration waveform
   - Enables simultaneous transmission and reception of data.
 
 - **Testbench Included**:
-  - Created testbenches to ensure the functionality of each and every verilog code.
+  - Created testbenches to ensure the functionality of each and every component.
 
 
