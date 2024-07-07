@@ -31,7 +31,8 @@ UART Full duplex configuaration waveform
 - Control Unit :
   - The control unit takes the 8 bit parallel data to be transmitted and the line control register as inputs.
   - Based on the line control register, it generates the parity bit and constructs the data frame(with start and stop bits) which will be transmitted.
-  - Just like the baud select bits, both the transmitter and the receiver must receive the same line control register so that parity generation and checking can happen. properly.
+  - Just like the baud select bits, both the transmitter and the receiver must receive the same line control register so that parity generation and checking can happen 
+    properly.
 - PISO Shift Register :
   - Takes the parallel data frame from the control unit and transmitts it serially.
 
