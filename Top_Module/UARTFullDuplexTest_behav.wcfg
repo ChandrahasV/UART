@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="UARTFullDuplexTest_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="UARTFullDuplexTest" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="87.000000001 ms"></ZoomEndTime>
+      <Cursor1Time time="26.946175637 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="204"></NameColumnWidth>
+      <ValueColumnWidth column_width="202"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/UARTFullDuplexTest/clk1" type="logic">
+      <obj_property name="ElementShortName">clk1</obj_property>
+      <obj_property name="ObjectShortName">clk1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/clk2" type="logic">
+      <obj_property name="ElementShortName">clk2</obj_property>
+      <obj_property name="ObjectShortName">clk2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/rst1" type="logic">
+      <obj_property name="ElementShortName">rst1</obj_property>
+      <obj_property name="ObjectShortName">rst1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/rst2" type="logic">
+      <obj_property name="ElementShortName">rst2</obj_property>
+      <obj_property name="ObjectShortName">rst2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/baud_sel1" type="array">
+      <obj_property name="ElementShortName">baud_sel1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">baud_sel1[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/baud_sel2" type="array">
+      <obj_property name="ElementShortName">baud_sel2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">baud_sel2[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/line_control_reg1" type="array">
+      <obj_property name="ElementShortName">line_control_reg1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">line_control_reg1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/line_control_reg2" type="array">
+      <obj_property name="ElementShortName">line_control_reg2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">line_control_reg2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/data_input1" type="array">
+      <obj_property name="ElementShortName">data_input1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_input1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/data_input2" type="array">
+      <obj_property name="ElementShortName">data_input2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_input2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/data_received1" type="array">
+      <obj_property name="ElementShortName">data_received1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_received1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/data_received2" type="array">
+      <obj_property name="ElementShortName">data_received2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_received2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/data_corrupted_flag1" type="logic">
+      <obj_property name="ElementShortName">data_corrupted_flag1</obj_property>
+      <obj_property name="ObjectShortName">data_corrupted_flag1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/data_corrupted_flag2" type="logic">
+      <obj_property name="ElementShortName">data_corrupted_flag2</obj_property>
+      <obj_property name="ObjectShortName">data_corrupted_flag2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/active_flag_rx1" type="logic">
+      <obj_property name="ElementShortName">active_flag_rx1</obj_property>
+      <obj_property name="ObjectShortName">active_flag_rx1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/active_flag_rx2" type="logic">
+      <obj_property name="ElementShortName">active_flag_rx2</obj_property>
+      <obj_property name="ObjectShortName">active_flag_rx2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/transmission_done_flag1" type="logic">
+      <obj_property name="ElementShortName">transmission_done_flag1</obj_property>
+      <obj_property name="ObjectShortName">transmission_done_flag1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/transmission_done_flag2" type="logic">
+      <obj_property name="ElementShortName">transmission_done_flag2</obj_property>
+      <obj_property name="ObjectShortName">transmission_done_flag2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/active_flag_tx1" type="logic">
+      <obj_property name="ElementShortName">active_flag_tx1</obj_property>
+      <obj_property name="ObjectShortName">active_flag_tx1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/active_flag_tx2" type="logic">
+      <obj_property name="ElementShortName">active_flag_tx2</obj_property>
+      <obj_property name="ObjectShortName">active_flag_tx2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/done_flag_tx1" type="logic">
+      <obj_property name="ElementShortName">done_flag_tx1</obj_property>
+      <obj_property name="ObjectShortName">done_flag_tx1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTFullDuplexTest/done_flag_tx2" type="logic">
+      <obj_property name="ElementShortName">done_flag_tx2</obj_property>
+      <obj_property name="ObjectShortName">done_flag_tx2</obj_property>
+   </wvobject>
+</wave_config>
