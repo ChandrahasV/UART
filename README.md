@@ -58,7 +58,7 @@ UART Full duplex configuaration waveform
   - Configurable for even or odd parity.
 
 - **Data Width Selection**:
-  - Allows selection of data width (typically 5, 6, 7, or 8 bits) .
+  - Allows selection of data width (5, 6, 7, or 8 bits) .
   - Only transmitts the chosen amount of data and fills the rest of the data frame with zeroes.
 
 - **Baud Rate Selection**:
