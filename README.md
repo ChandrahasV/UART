@@ -6,6 +6,8 @@ This project implements a UART (Universal Asynchronous Receiver-Transmitter) mod
 UART is a hardware communication protocol that uses asynchronous serial communication. 
 It is widely used for serial communication between microcontrollers, computers, and other digital systems.
 
+![UART Schematic](Top_Module/Images/UARTschematic.png)
+
 ### Components:
 **Transmitter**: The transmitter consists of three components:
 - Baud Clock Generator :
@@ -20,6 +22,7 @@ It is widely used for serial communication between microcontrollers, computers, 
   - Takes the parallel data frame from the control unit and transmitts it serially.
 
 ![Transmitter Schematic](Transmitter/Images/Transmitterschematic.png)
+
 ![Transmitter Waveform](Transmitter/Images/Transmitterwaveform.png)
  
 **Receiver**: The receiver also consists of three components:
@@ -32,40 +35,24 @@ It is widely used for serial communication between microcontrollers, computers, 
   - Outputs the 8 bit parallel data received.
 ![Receiver Schematic](Receiver/Images/Receiverschematic.png)
 ![Receiver Waveform](Receiver/Images/Receiverwaveform.png)
+
 ## Features
-
-- **Baud Rate Generation**:
-  - Configurable baud rate to match the required communication speed.
-  - The baud rate generator ensures the proper timing for data transmission and reception.
-  - ![Baud Rate Generator](images/baud_rate/baud_rate_generator.png)
-
-- **Start/Stop Bit Generation**:
-  - Automatically generates start and stop bits to frame each data packet.
-  - Ensures that the data packets are correctly recognized by the receiver.
-  - ![Start/Stop Bit Generation](images/start_stop/start_stop_bits.png)
 
 - **Parity Checking**:
   - Supports optional parity bit for error detection.
   - Configurable for even or odd parity.
-  - ![Parity Checking](images/parity/parity_checking.png)
 
 - **Data Width Selection**:
-  - Allows selection of data width (typically 5, 6, 7, or 8 bits) to accommodate different data packet sizes.
-  - Provides flexibility for various communication protocols.
-  - ![Data Width Selection](images/data_width/data_width_selection.png)
+  - Allows selection of data width (typically 5, 6, 7, or 8 bits) .
+  - Only transmitts the chosen amount of data and fills the rest of the data frame with zeroes.
+
+- **Baud Rate Selection**:
+  - Allows the selection of baud rate (2400,4800,9600 or 38400) with the help of baud select bits.
 
 - **Full-Duplex Communication**:
-  - Enables simultaneous transmission and reception of data, enhancing communication efficiency.
-  - ![Full-Duplex Communication](images/full_duplex/full_duplex.png)
-
-- **Modular Design**:
-  - The module is designed in a modular way to facilitate easy integration and reuse in various projects.
-  - Each component (baud rate generator, parity checker, etc.) is implemented as a separate module.
+  - Enables simultaneous transmission and reception of data.
 
 - **Testbench Included**:
-  - A comprehensive testbench is provided to verify the functionality of the UART module.
-  - The testbench includes various test cases to validate different aspects of the UART functionality.
-  - ![Testbench](images/testbench/testbench.png)
+  - Created testbenches to ensure the functionality of each and every verilog code.
 
-By providing a customizable and efficient UART solution, this project aims to simplify the integration of UART functionality into various digital designs. Whether for microcontroller interfacing, data logging, or other applications, this UART module offers a reliable and flexible communication interface.
 
