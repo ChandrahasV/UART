@@ -8,6 +8,20 @@ It is widely used for serial communication between microcontrollers, computers, 
 
 ![UART Schematic](Top_Module/Images/UARTschematic.png)
 
+UART Schematic
+
+![UART Schematic](Top_Module/Images/UARTwaveform.png)
+
+UART Waveform
+
+![UART Fully Duplex Configuaration Schematic](Top_Module/Images/FullDuplexschematic.png)
+
+UART operating in full duplex configuaration
+
+![UART Fully Duplex Configuaration Schematic](Top_Module/Images/FullDuplexwaveform.png)
+
+UART Full duplex configuaration waveform
+
 ### Components:
 **Transmitter**: The transmitter consists of three components:
 - Baud Clock Generator :
